@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    
+    <style>
+        body{
+            background-color: #C6D2ED;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profilka {
+            border-radius: 90%;
+            width: 20%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        h1{
+            font-size: 40px;
+            font-family: 'Comfortaa', sans-serif;
+            
+        }
+        #puscica {
+            font-size: 100px;
+        }
+        #globe{
+            font-size: 150px;
+            margin-left: 5%;
+        }
+        .skill {
+            width: 200px;
+        }
+
+        #left {
+            margin-left: 5%;
+        }
+        #block {
+            width: 70%;
+            background-color: #B8CDF8;
+            border-radius: 25px;
+            white-space: nowrap ;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    </style>
+
+    <section>
+        <div class = "center">
+            <h1>Tilen Šimenc</h1>
+            <img class = "profilka" src = "MyLogo.jpg">
+            <br>
+            <br>
+            <span class="material-symbols-outlined" id = "puscica">
+                expand_more
+            </span>
+        </div>
+    </section>
+    <section>
+        <div class = "center">
+            <h1>My Story</h1>
+            <h2>I was introduced to computers when I was in fourth grade. At that time I started with programming in scratch.</h2>
+            <h2>Few years later I tried programming in Unity and Roblox Studio but failed.</h2>
+            <h2>In nineth grade I started making websites using HTML5, CSS and JavaScript.</h2>
+            <h2>This year I also started with making games in Unreal Engine and models in Blender</h2>
+        </div>
+    </section>
+    <section>
+        <div class = "center">
+            <h1>Skills</h1>
+            <div id = "block">
+                
+                <img class = "skill" src = "Blender_logo_no_text.svg.png" id = "left">
+                <h2>I was attending blender courses for over 2 years.</h2>
+                <h2>Thats why I know how to make from simple to even a bit more complexe models, renders.</h2>
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id = "block">
+                
+                <img class = "skill" src = "Unreal_Engine_logo_and_wordmark.png" id = "left">
+                <h2>I'am appending Unreal Engine 5 courses for over 1 year now.</h2>
+                <h2> I've created a few pretty good games and a few were even published on itch.io</h2>
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id = "block">
+                
+                <span class="material-symbols-outlined" id = "globe">
+                    
+                    language
+                    </span>
+                    <h2>I've been also making websites for a long time right now.</h2>
+            </div>    
+
+        </div>
+    </section>
+</body>
+</html>
