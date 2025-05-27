@@ -1,27 +1,77 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+/* Reset and base styles */
+html,
 body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #101010;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Prevent image spacing issue */
+img {
+    display: block;
+}
+
+/* Navigation */
+.navbar {
+    margin-bottom: 0;
+}
+
+/* Ensure dark section background matches page */
+.dark-section,
+.dark-container {
     background-color: #101010;
 }
 
+/* Custom card style (e.g., for About Me or Projects) */
+.custom-card,
+.card {
+    background-color: #191a1a !important;
+    color: white;
+    border: none;
+}
+
+/* Text colors */
+h1,
+h2,
+p {
+    color: white;
+}
+
+/* Optional: ensure sections stretch fully if needed */
+body>section {
+    min-height: calc(100vh - 56px);
+    /* 56px is the default navbar height */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+/* Center utility */
 .center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Profile image */
 .profilka {
     border-radius: 90%;
     width: 20%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-h1 {
-    font-size: 40px;
-    font-family: 'Comfortaa', sans-serif;
-
-}
-
+/* Icons */
 #puscica {
     font-size: 100px;
 }
@@ -31,6 +81,7 @@ h1 {
     margin-left: 5%;
 }
 
+/* Skills and block styles */
 .skill {
     width: 200px;
 }
@@ -49,47 +100,26 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-
+/* Navigation bar items */
 #navigationbar {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-around;
-    /* or flex-start / center */
 }
 
 li {
     float: none;
-    /* remove the float */
 }
 
 #navbar {
     width: 100vw;
 }
 
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
-}
-
-p {
-    color: white;
-    font-size: 15px;
-}
-
+/* Contact info section */
 #contactinfo {
     padding: 0;
     margin: 0;
