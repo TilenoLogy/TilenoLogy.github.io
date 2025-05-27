@@ -1,0 +1,89 @@
+body {
+    background-color: #101010;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilka {
+    border-radius: 90%;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+#puscica {
+    font-size: 100px;
+}
+
+#globe {
+    font-size: 150px;
+    margin-left: 5%;
+}
+
+.skill {
+    width: 200px;
+}
+
+#left {
+    margin-left: 5%;
+}
+
+#block {
+    width: 70%;
+    background-color: #191a1a;
+    border-radius: 25px;
+    white-space: nowrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+#navigationbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    /* or flex-start / center */
+}
+
+li {
+    float: none;
+    /* remove the float */
+}
+
+#navbar {
+    width: 100vw;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
