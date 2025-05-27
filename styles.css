@@ -8,6 +8,15 @@ body {
     height: 100%;
     background-color: #101010;
     font-family: 'Comfortaa', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Allow page content to grow and push footer down */
+body>section {
+    flex: 1;
+    padding-bottom: 2rem;
 }
 
 /* Prevent image spacing issue */
@@ -39,12 +48,6 @@ h1,
 h2,
 p {
     color: white;
-}
-
-/* Optional: ensure sections stretch fully if needed */
-body>section {
-    min-height: calc(100vh - 56px);
-    /* 56px is the default navbar height */
 }
 
 /* Links */
