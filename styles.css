@@ -70,3 +70,7 @@ a {
 a:hover {
     color: #ccc;
 }
+
+section>.container>.card:last-child {
+    margin-bottom: 0 !important;
+}
