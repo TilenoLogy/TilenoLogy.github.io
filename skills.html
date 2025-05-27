@@ -1,130 +1,81 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Skills - Tilen Šimenc</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1873321924383849"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav>
-        <div class="navbar">
-            <ul id="navigationbar">
-                <li>
-                    <h1>Tilen Šimenc</h1>
-                </li>
-                <li><a href="index.html">
-                        <h1>About Me</h1>
-                    </a></li>
-                <li><a href="skills.html">
-                        <h1>Skills</h1>
-                    </a></li>
-                <li><a href="projects.html">
-                        <h1>Projects</h1>
-                    </a></li>
-                <li><a href="contacts.html">
-                        <h1>Contact</h1>
-                    </a></li>
+    <nav class="navbar navbar-dark bg-dark p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tilen Šimenc</a>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contacts.html">Contact</a></li>
             </ul>
         </div>
-
     </nav>
-    <br>
 
+    <section class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h1 class="mb-5">Skills</h1>
 
-
-    <section>
-        <div class="center">
-            <h1>Skills</h1>
-            <div id="block">
-
-                <img class="skill" src="Images/Blender_logo_no_text.svg.png" id="left">
-                <h2>I have been working with Blender for a few years now.</h2>
-                <h2>I know how to make some renders and also models. I usually use models for my games.</h2>
-
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div id="block">
-
-                <img class="skill" src="Images/Unreal_Engine_logo_and_wordmark.png" id="left">
-                <h2>I'am teaching Unreal Engine 5 on my school and I've been working with it for 2 years.</h2>
-                <h2>I've created a few games that are now on itch.io and now I'am learning on how to make a VR game.
-                </h2>
-
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div id="block">
-
-                <span class="material-symbols-outlined" id="globe">
-
-                    language
-                </span>
-                <h2>I know how to make a simple websites with HTML, CSS and JS.</h2>
+            <div class="card bg-secondary mb-4 p-4">
+                <img class="skill mb-3" src="Images/Blender_logo_no_text.svg.png" alt="Blender">
+                <h4>I have been working with Blender for a few years now.</h4>
+                <p>I create renders and models, which I often use in my games.</p>
             </div>
 
-
-
-            <div id="block">
-
-                <span class="material-symbols-outlined" id="globe">
-
-                    language
-                </span>
-                <h2>I also know how to make more functional models with Inventor</h2>
+            <div class="card bg-secondary mb-4 p-4">
+                <img class="skill mb-3" src="Images/Unreal_Engine_logo_and_wordmark.png" alt="Unreal Engine">
+                <h4>I teach Unreal Engine 5 at school and have used it for over 2 years.</h4>
+                <p>I've published games on itch.io and am currently learning VR development.</p>
             </div>
 
-            <div id="block">
-
-                <span class="material-symbols-outlined" id="globe">
-
-                    language
-                </span>
-                <h2>I used my knowledge of modeling in Blender and Inventor to learn how to 3D print.</h2>
+            <div class="card bg-secondary mb-4 p-4">
+                <span class="material-symbols-outlined display-1">language</span>
+                <h4>Web Development</h4>
+                <p>I can create simple websites using HTML, CSS, and JavaScript.</p>
             </div>
 
-            <div id="block">
-
-                <span class="material-symbols-outlined" id="globe">
-
-                    language
-                </span>
-                <h2>I've been also learning how to make curciuts with Arduino and then also make a program on it. That
-                    allowed me to expand my projects not just in software but also to hardware</h2>
+            <div class="card bg-secondary mb-4 p-4">
+                <span class="material-symbols-outlined display-1">precision_manufacturing</span>
+                <h4>CAD Design</h4>
+                <p>I use Autodesk Inventor to design functional mechanical models.</p>
             </div>
 
+            <div class="card bg-secondary mb-4 p-4">
+                <span class="material-symbols-outlined display-1">print</span>
+                <h4>3D Printing</h4>
+                <p>I apply my modeling skills from Blender and Inventor to create and print 3D models.</p>
+            </div>
 
-
-
+            <div class="card bg-secondary mb-4 p-4">
+                <span class="material-symbols-outlined display-1">memory</span>
+                <h4>Arduino & Hardware</h4>
+                <p>I build circuits using Arduino and write the software, combining hardware and programming in my
+                    projects.</p>
+            </div>
 
         </div>
-        <script async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1873321924383849"
-            crossorigin="anonymous"></script>
-        <!-- Example ad -->
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1873321924383849"
-            data-ad-slot="9364655405" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
     </section>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1873321924383849"
+        crossorigin="anonymous"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1873321924383849" data-ad-slot="9364655405"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </body>
 
 </html>
