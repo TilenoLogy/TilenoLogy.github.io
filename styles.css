@@ -81,3 +81,12 @@ section>.container>.card:last-child {
     height: auto;
     object-fit: contain;
 }
+
+.project-img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
