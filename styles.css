@@ -84,3 +84,7 @@ section>.container>.card:last-child {
     /* Preserve aspect ratio */
     object-fit: contain;
 }
+
+.adsbygoogle {
+    display: none;
+}
