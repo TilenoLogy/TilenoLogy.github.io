@@ -5,19 +5,18 @@ body {
     padding: 0;
     background-color: #101010;
     font-family: 'Comfortaa', cursive, sans-serif;
-    display: flex;
-    flex-direction: column;
     color: white;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
 /* Make section grow and fill available space */
 section {
     flex: 1 0 auto;
-    /* flex-grow:1; flex-shrink:0; flex-basis:auto */
     background-color: #101010;
     padding-bottom: 2rem;
 }
@@ -27,7 +26,6 @@ footer {
     background-color: #101010 !important;
     flex-shrink: 0;
     padding: 1rem 0;
-    /* add some vertical padding */
     text-align: center;
 }
 
@@ -81,10 +79,5 @@ section>.container>.card:last-child {
     margin-right: auto;
     max-width: 100px;
     height: auto;
-    /* Preserve aspect ratio */
     object-fit: contain;
-}
-
-.adsbygoogle {
-    display: none;
 }
